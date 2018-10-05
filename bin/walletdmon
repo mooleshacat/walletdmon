@@ -1,0 +1,8 @@
+#
+# walletdmon internal script (DO NOT MODIFY!)
+#
+# http://easyxpool.tk:44420/
+# https://discord.gg/vzcbVNW
+#
+
+echo "1: ${1} 2: ${2} 3: ${3}"
