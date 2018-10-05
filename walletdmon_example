@@ -10,9 +10,12 @@ wdm=bin/walletdmon
 #
 # FORMAT FOR EACH COIN (CHANGE HERE!):
 #
+# Of course, you set each walletd on its own user...
+# You're not that stupid :)
+#
 # cmd	user	walletd-cli	ismn (0=pool,1=mn)
 #
 
-$wdm raven raven-cli 0
-$wdm mogwai mogwai-cli 1
-$wdm securetag securetag-cli 0
+$wdm ravencoin raven-cli 0
+$wdm mogwaicoin mogwai-cli 1
+$wdm securetagcoin securetag-cli 0
