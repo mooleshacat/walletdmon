@@ -1,0 +1,18 @@
+#
+# WalletDMon Script Launcher
+#
+# http://easyxpool.tk:44420/
+# https://discord.gg/vzcbVNW
+#
+# Relative location of walletdmon script (leave untouched)
+wdm=bin/walletdmon
+
+#
+# FORMAT FOR EACH COIN (CHANGE HERE!):
+#
+# cmd	user	walletd-cli	ismn (0=pool,1=mn)
+#
+
+$wdm raven raven-cli 0
+$wdm mogwai mogwai-cli 1
+$wdm securetag securetag-cli 0
